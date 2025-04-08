@@ -46,9 +46,7 @@ function formatDate(date, fromFormat, toFormat) {
 
     if (year >= 30) {
       updatedYear = '19' + obj['YY'];
-    }
-
-    if (year < 30) {
+    } else if (year < 30) {
       updatedYear = '20' + obj['YY'];
     }
 
